@@ -1,0 +1,209 @@
+body {
+    margin: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: beige;
+}
+
+p {
+    margin: 0;
+}
+
+
+.main-container {  
+    width: 375px;
+    margin: auto;
+    background-color: white;
+}
+
+.cont {
+    margin: auto;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.cont .notifications {
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+
+}
+
+.cont p {
+    font-size: 18px;
+    color: hsl(219, 12%, 42%);
+}
+
+
+.cont .notifications h2, .cont .notifications p {
+    font-size: 24px;
+}
+
+.cont .notifications p {
+    margin-left: 10px;
+    text-align: center;
+    width: 30px;
+    height: 25px;
+    background-color: hsl(219, 85%, 26%);
+    color: white;
+    border-radius: 5px;
+    font-size: 22px;
+}
+
+
+.Mark {
+    margin: auto;
+    width: 90%;
+    background-color: hsl(211, 68%, 94%);
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.Mark1 {
+    margin: auto;
+    width: 90%;
+    background-color: white;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.Mark-cont {
+    width: 90%;
+    display: flex;
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    height: auto;
+    color: hsl(219, 14%, 63%);
+}
+
+.mark-ava {
+    background-image: url(assets/images/avatar-mark-webber.webp);
+    margin-right: 10px;
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+}
+
+.angela-ava {
+    background-image: url(assets/images/avatar-angela-gray.webp);
+    margin-right: 10px;
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+}
+
+.jacob-ava {
+    background-image: url(assets/images/avatar-jacob-thompson.webp);
+    margin-right: 10px;
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+}
+
+.rizky-hasanuddin-ava{
+    background-image: url(assets/images/avatar-rizky-hasanuddin.webp);
+    margin-right: 10px;
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+}
+
+.kimberley-smith-ava {
+    background-image: url(assets/images/avatar-kimberly-smith.webp);
+    margin-right: 10px;
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+}
+
+.nathan-peterson-ava {
+    background-image: url(assets/images/avatar-nathan-peterson.webp);
+    margin-right: 10px;
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+}
+
+.anna-kim-ava {
+    background-image: url(assets/images/avatar-anna-kim.webp);
+    margin-right: 10px;
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+}
+
+.mark-texts {
+    flex-basis: 80%;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.mark-texts1 {
+    flex-basis: 63%;
+}
+
+.pic {
+    margin-left: 10px;
+    background-image: url(assets/images/image-chess.webp);
+    background-size: cover;
+    width: 40px;
+    height: 40px;
+}
+
+
+.name {
+    color: black;
+    font-size: 17px;
+}
+
+.post {
+    color: hsl(219, 9%, 37%);
+}
+
+.dot {
+    /* width: 5px; */
+    /* height: 2px; */
+    font-size: 8px;
+    background-color: red;
+    border-radius: 50%;
+    color: red;
+    text-align: center;
+    margin-left: 5px;
+}
+
+.club {
+    color: rgb(34, 34, 213);
+    font-size: 16px;
+}
+
+
+.message {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    flex-basis: 80%;
+    padding: 10px;
+    border: 2px solid black;
+}
+
+@media (min-width: 450px) {
+    .main-container {
+        width: 100%;
+        font-size: 20px;
+        height: 100vh;
+    }
+    .name {
+        font-size: 22px;
+    }
+    .club {
+        font-size: 22px;
+    }
+    .pic {
+        width: 60px;
+        height: 60px;
+    }
+}
